@@ -21,54 +21,6 @@ public class Audio {
         JButton boton4 = new JButton("Botón 4");
         JButton boton5 = new JButton("Botón 5");
         JButton boton6 = new JButton("Botón 6");
-  
-        // ActionListener para el Botón 1
-        boton1.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                reproducirAudio("RutaDelAudio1"); 
-            }
-        });
-
-        // ActionListener para el Botón 2
-        boton2.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                reproducirAudio("RutaDelAudio2"); 
-            }
-        });
-        
-        // ActionListener para el Botón 3
-        boton3.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                reproducirAudio("RutaDelAudio3"); 
-            }
-        });
-
-        // ActionListener para el Botón 4
-        boton4.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                reproducirAudio("RutaDelAudio4"); 
-            }
-        });
-        
-        // ActionListener para el Botón 5
-        boton5.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                reproducirAudio("RutaDelAudio5"); 
-            }
-        });
-
-        // ActionListener para el Botón 6
-        boton6.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                reproducirAudio("RutaDelAudio6"); 
-            }
-        });
         
         frame.add(boton1);
         frame.add(boton2);
