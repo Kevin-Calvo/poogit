@@ -2,21 +2,26 @@ package reproductores;
 
 // esta clase hereda de la clase letra los metodos para solicitar la informacion, y se encarga de crear la musica a partir de esos metodos
 // es abstracta para que no se pueda instanciar y no es una interface para definir los metodos aqui mismo
-public abstract class musica extends letra {
+public abstract class musica  {
 
-	void generarLetra(String Base)
+	String pedirBase()
 	{
-		System.out.print(Base);
-	} 
-	
-	void generarCancion(String ritmo)
-	{
-		System.out.print(ritmo);
+		return("aaa"); 
 	}
 	
-	void mixgeneros(String ritmo1, String ritmo2)
+	String pedirRitmo()
 	{
-		System.out.print(ritmo1 + ritmo2); 
+		return("aaa"); 
+	}
+	
+	String pedirMix()
+	{
+		return("aaa bbb");
+	}
+	
+	String pedirNCanciones()
+	{
+		return("###"); 
 	}
 	
 }
